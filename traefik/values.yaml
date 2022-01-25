@@ -86,6 +86,7 @@ experimental:
   kubernetesGateway:
     enabled: false
     appLabelSelector: "traefik"
+    listenerName: "default-listener"
     certificates: []
     # - group: "core"
     #   kind: "Secret"
